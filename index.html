@@ -2,46 +2,86 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cards Perfil Github</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Benevanio Santos | Engenheiro de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class= "card">
-            <div class="content">
-              <h2>BeneDev</h2>
-              <img src="Perfil.jpg" alt="Bene" class="img-perfil">
-              <p>Olá meu nome é <strong> Benevanio santos</strong>  sou desenvolvedor front-end e back-end</p>
-              
-              
-              <a href="#">Para saber Mais Acesse</a>
+    <main class="page">
+        <section class="hero tilt-card" data-tilt>
+            <p class="eyebrow">Engenheiro de Software | Clientes: Natura & Avon</p>
+            <h1>Benevanio Santos</h1>
+            <p class="lead">Construo APIs e integracoes escalaveis com foco em resultado de negocio.</p>
+            <p class="summary">Atuacao em engenharia de software com Java, Node.js 22, MuleSoft, React e AWS, entregando sistemas robustos para cenarios corporativos de alta criticidade.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#contato">Vamos conversar</a>
+                <a class="btn btn-ghost" href="#sobre">Sobre Mim</a>
+            </div>
+        </section>
 
+        <section id="sobre" class="panel reveal">
+            <h2>Sobre Mim</h2>
+            <p>Engenheiro de Software com foco em arquitetura distribuida e modernizacao de integracoes.</p>
+            <p>Engenheiro de Software com experiencia em grandes ecossistemas corporativos, atendendo clientes como Natura e Avon com APIs, integracoes e observabilidade.</p>
+            <p>Formacao em Engenharia de Software (Anhanguera) e pos-graduacao em Arquitetura de Software Distribuido na PUC Minas (em andamento).</p>
+            <ul class="chips">
+                <li>Java + Spring</li>
+                <li>Node.js 22</li>
+                <li>MuleSoft</li>
+                <li>React + TypeScript</li>
+                <li>AWS + Docker</li>
+                <li>API-Led Connectivity</li>
+            </ul>
+        </section>
+
+        <section class="panel reveal">
+            <h2>Indicadores Tecnicos</h2>
+            <div class="kpi-grid">
+                <article class="kpi tilt-card" data-tilt><strong>+40%</strong><span>rastreabilidade ponta a ponta</span></article>
+                <article class="kpi tilt-card" data-tilt><strong>+25%</strong><span>ganho medio de performance</span></article>
+                <article class="kpi tilt-card" data-tilt><strong>-30%</strong><span>tempo de resposta de APIs</span></article>
+                <article class="kpi tilt-card" data-tilt><strong>99.9%</strong><span>disponibilidade em integracoes criticas</span></article>
             </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                <H2>Projetos</H2>
-                
-                <p>Alguns dos Projetos em c# ionic angular e cordova estarao disponiveis aqui</p>
-                <a href="#">Acesse Meu Protfolio No github</a>
-        
+        </section>
+
+        <section class="panel reveal">
+            <h2>Trajetoria Profissional</h2>
+            <div class="timeline">
+                <article><span>2025 - 2027</span><h3>Pos-graduacao em Arquitetura de Software Distribuido</h3><p>PUC Minas (em andamento), com aprofundamento em sistemas distribuidos, observabilidade e arquitetura em nuvem.</p></article>
+                <article><span>jun/2023 - Atual</span><h3>Engenheiro de Software - Clientes: Natura & Avon</h3><p>Desenvolvimento de integracoes MuleSoft, APIs Java e Node.js com foco em escalabilidade, governanca e performance.</p></article>
+                <article><span>2021 - 2025</span><h3>Bacharelado em Engenharia de Software</h3><p>Anhanguera, com base forte em fundamentos de engenharia, modelagem e qualidade de software.</p></article>
             </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                
-                <h2>Trabalho</h2>
-                <p>Acesse meus trabalhos no github</p>
-                <a href="#">Acesse Meu Perfil No Github</a>
-        
+        </section>
+
+        <section class="panel reveal">
+            <h2>Projetos Tecnicos</h2>
+            <div class="project-grid">
+                <article class="project tilt-card" data-tilt><small>Back-End | Clean Architecture</small><h3>AuthKnex</h3><p>Sistema de autenticacao com Node.js, TypeScript, JWT e estrategia de seguranca para APIs empresariais.</p><p class="stack">Node.js | TypeScript | PostgreSQL | JWT</p><a href="#">Ver no GitHub</a></article>
+                <article class="project tilt-card" data-tilt><small>Back-End | MVC</small><h3>RestSpring</h3><p>API REST com Java e Spring Boot, documentacao OpenAPI e padroes para governanca de endpoints.</p><p class="stack">Java | Spring Boot | JPA | OpenAPI</p><a href="#">Ver no GitHub</a></article>
+                <article class="project tilt-card" data-tilt><small>Integracoes | API-Led</small><h3>MuleSoft Integrations</h3><p>Implementacao de fluxos MuleSoft com DataWeave e politicas para integracoes corporativas.</p><p class="stack">MuleSoft | DataWeave | REST | SOAP</p><a href="#">Ver no GitHub</a></article>
+                <article class="project tilt-card" data-tilt><small>Integracoes | Event-Driven</small><h3>QueueMaster</h3><p>Mensageria assincrona com MuleSoft Mule 4 e Apache ActiveMQ, com rastreabilidade e error handling avancado.</p><p class="stack">MuleSoft | ActiveMQ | Mule 4 | HTTP</p><a href="#">Ver no GitHub</a></article>
             </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll(".card"));
-    </script>
+        </section>
+
+        <section id="contato" class="panel reveal">
+            <h2>Contato</h2>
+            <p>Disponivel para oportunidades em engenharia de software, arquitetura e integracoes.</p>
+            <div class="contact-actions">
+                <a class="btn btn-primary" href="#">Agendar conversa</a>
+                <a class="btn btn-ghost" href="mailto:benevaniosantos930@gmail.com">Enviar email</a>
+            </div>
+            <p class="contact-note">Para confirmar detalhes da conversa, envie a pauta para benevaniosantos930@gmail.com.</p>
+        </section>
+
+        <footer class="footer reveal">
+            <p>© 2026 Benevanio Santos. Engenharia de software orientada a resultados.</p>
+        </footer>
+    </main>
+
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

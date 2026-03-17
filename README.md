@@ -1,29 +1,41 @@
+# Portfolio Lofi - Benevanio Santos
 
-# SOCIAL MEDIA
-Social Media Icons Animation with  Vanilla TILTJS
-## Instalação
+Projeto de portfolio em HTML, CSS e JavaScript Vanilla com efeito 3D (`vanilla-tilt`) e layout responsivo.
 
-Instale my-project com npm
+## Estrutura
 
-```bash
-cd my-project
-npm install my-project
-  
+```text
+CARDS_ICON_VANILLAJS/
+|-- index.html
+|-- README.md
+`-- assets/
+	|-- css/
+	|   `-- style.css
+	|-- js/
+	|   |-- main.js
+	|   `-- vanilla-tilt.js
+	`-- images/
+		|-- Perfil.jpg
+		`-- Perfil02.png
 ```
-    
-## Autores
 
-- [@BENE_TESLA](https://github.com/benetesla)
+## Como executar
 
+1. Abra a pasta do projeto no VS Code.
+2. Abra o arquivo `index.html` no navegador (ou use extensão como Live Server).
 
-## License
+## Arquitetura aplicada
 
+- `index.html`: estrutura sem scripts inline.
+- `assets/css/style.css`: tema visual e responsividade.
+- `assets/js/main.js`: interações da página (tilt + reveal).
+- `assets/js/vanilla-tilt.js`: biblioteca de efeito 3D local.
+- `assets/images/`: imagens do projeto.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+## Stack
 
-
-## Stack utilizada
-
-**Front-end:** HTML CSS JAVASCRIPT(VANILLA)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
 
